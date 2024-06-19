@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Browse />} />
         <Route path="/search" element={<Search />} />
+  <div>co gi khong vay</div>
       </Routes>
     </BrowserRouter>
   );
