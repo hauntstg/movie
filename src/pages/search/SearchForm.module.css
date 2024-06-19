@@ -1,0 +1,57 @@
+.form-search {
+  width: 40%;
+  margin: 35px auto 0 auto;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.form-search .input-icon {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  padding: 10px;
+}
+
+.input-icon input {
+  height: 100%;
+  width: 95%;
+  border: 0px;
+  padding-left: 10px;
+}
+
+.input-icon input:focus {
+  border: 1px solid #c3c3c3;
+  outline: none;
+}
+
+.input-icon svg {
+  height: 70%;
+  width: 5%;
+  cursor: pointer;
+}
+
+.form-search .btn {
+  border-top: 2px solid dodgerblue;
+  text-align: right;
+  padding: 30px;
+}
+
+.btn button {
+  font-weight: bold;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn .btn-reset {
+  color: gray;
+  background-color: transparent;
+  margin-right: 5px;
+}
+
+.btn .btn-search {
+  color: #f7f7f7;
+  background-color: dodgerblue;
+}

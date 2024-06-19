@@ -1,0 +1,26 @@
+.result-modal {
+  display: none;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 0;
+  background-color: teal;
+}
+
+.btn {
+  padding-left: 20px;
+}
+
+.btn .btn-close {
+  padding: 15px;
+  color: #f7f7f7;
+  font-weight: bold;
+  background-color: brown;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}

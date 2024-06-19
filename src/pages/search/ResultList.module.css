@@ -1,0 +1,37 @@
+.wrap-list {
+  margin-left: 20px;
+}
+
+.wrap-list .title {
+  color: #f7f7f7;
+  padding: 20px 0px;
+  display: inline-block;
+  font-weight: 600;
+  left: 0;
+}
+
+.wrap-list .movie-list {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.movie-list .backdrop {
+  transition: transform 0.5s;
+}
+
+.movie-list img {
+  width: calc(100% / 10);
+}
+
+.movie-list img:hover {
+  transform: scale(1.1);
+}
+
+.loading,
+.not-found {
+  text-align: center;
+  color: white;
+}

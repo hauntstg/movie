@@ -1,0 +1,82 @@
+.title {
+  display: block;
+  color: white;
+  padding: 0 0 10px 10px;
+}
+
+.wrap-list {
+  margin: 40px 0;
+}
+
+.movie-list {
+  /* width: 100%; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* flex-direction: row; */
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  overflow-x: auto;
+  margin: 0 20px;
+}
+
+.movie-list img {
+  /* width: auto; */
+  /* height: 340px;
+  object-fit: cover; */
+  /* width: calc(100% / 3); */
+  width: 9%;
+  margin-left: 10px;
+  transition: transform 0.5s;
+}
+
+/* .movie-list .backdrop {
+  width: 12%;
+  margin-left: 10px;
+  transition: transform 0.5s;
+} */
+
+.movie-list img:first-child {
+  margin-left: 0px;
+}
+
+.movie-list img:hover {
+  transform: scale(1.1);
+}
+
+.backdrop {
+  width: 12% !important;
+  margin-left: 10px;
+  transition: transform 0.5s;
+}
+
+.poster {
+}
+
+.loading,
+.not-found {
+  text-align: center;
+  color: white;
+}
+
+.movie-list {
+  &::-webkit-scrollbar {
+    height: 3px;
+    background-color: transparent;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
