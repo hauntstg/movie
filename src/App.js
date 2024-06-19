@@ -6,13 +6,14 @@ import Search from "./pages/search/Search";
 
 function App() {
   return (
+    <><div>co gi khong vay</div>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Browse />} />
         <Route path="/search" element={<Search />} />
-  <div>co gi khong vay</div>
+  
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter></>
   );
 }
 
